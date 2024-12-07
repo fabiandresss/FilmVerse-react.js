@@ -1,0 +1,35 @@
+/* Estilo del contenedor de la imagen */
+.photo-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Usamos el 100% de la altura de la vista para asegurar que ocupe toda la pantalla */
+  }
+  
+  /* Imagen estática en el fondo */
+  .photoSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Esto hace que la imagen ocupe todo el ancho de la página */
+    height: 60vh; /* Ajustamos la altura con unidades de vista vh, asegurando que no cubra el header */
+    object-fit: cover; /* Hace que la imagen se ajuste bien sin perder proporciones */
+    z-index: -1; /* Coloca la imagen detrás del header */
+    margin-top: 80px;
+  }
+
+  /*Dato: Anteriormente use margenes para ajustar la imagen del titulo, pero, esto no es compatible con
+  position: fixed; Por lo que directamente usamos las propiedades top y right, sin usar margenes.
+  
+  Los márgenes (margin-top, margin-right, etc.) están diseñados para trabajar dentro del flujo normal del documento, 
+  pero cuando un elemento es sacado de ese flujo (como sucede con position: fixed), los márgenes ya no se comportan igual*/
+  .photoTitle {
+    position: fixed; /* Esto hace que el título se quede quieto al hacer scroll */
+    top: 100px; /* Posición desde la parte superior */
+    right: 850px; /* Posición desde el lado derecho */
+    width: 450px; /* Ancho del título */
+    height: 200px; /* Altura del título */
+    z-index: 1; /* Asegura que esté por encima de otros elementos */
+    color: white; /* Por si el texto necesita contraste */
+    font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+  }
+  
