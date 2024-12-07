@@ -1,0 +1,25 @@
+/* Estilo del botón rosado */
+.button-pink {
+    background-color: #ff4d88; /* Color rosado vibrante */
+    color: white; /* Texto blanco */
+    font-size: 16px; /* Tamaño de fuente */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 30px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al estilo de un botón */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-weight: bold; /* Texto en negrita */
+    position: fixed;
+  }
+  
+  .button-pink:hover {
+    background-color: #ff2e70; /* Color más oscuro al pasar el cursor */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  }
+  
+  .button-pink:active {
+    background-color: #e0005a; /* Color más oscuro al hacer clic */
+    transform: scale(0.98); /* Efecto de pulsación */
+  }
+  

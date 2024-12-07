@@ -40,3 +40,21 @@
 body {
   background-color: black;
 }
+
+.buttons-container1 {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  align-items: center; /* Asegúrate de que los botones estén alineados */
+  margin-top: -300px; /* Ajusta para colocarlos justo debajo del título */
+  z-index: 1; /* Asegúrate de que estén por encima de otros elementos */
+  position: relative;
+}
+
+.buttons-container2 {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  align-items: center; /* Asegúrate de que los botones estén alineados */
+  margin-top: -50px; /* Ajusta para colocarlos justo debajo del título */
+  z-index: 1; /* Asegúrate de que estén por encima de otros elementos */
+  position: relative;
+}
