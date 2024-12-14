@@ -13,12 +13,12 @@ function App() {
     <div className="App">
       <Header />
       <PhotoSection />
-      <div className="buttons-container1">
+    { /* <div className="buttons-container1">
         <Button className="button-pink" text="Reproducir" />
       </div>
       <div className="buttons-container2">
         <Button className="button-pink" text="Más información" />
-      </div>
+      </div> */}
     </div>
 
 );
